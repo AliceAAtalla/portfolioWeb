@@ -25,36 +25,44 @@
         color:white;
         
     }
-    #subtitle{ 
-        color:#16bac5;
+    .main-block {
+        margin: 80px 20px;
+        display: flex;
+    }
+
+    .text-main-block { 
+        color:#171d1c;
+        font-size: 22px;
         position: relative;
-        margin: 5px 10px 5px 100px;
-        font-size: 20px;
+        width: 100%;
+        padding: 2px 2px;
+        margin: 70px 100px;
+        display:block;
+        text-align: center;
     }
 
     #alicePicture {
-        width: 300px;
-        border: 2px dashed; 
-        border-radius: 50%;
-        border-color:#16bac5;
-        position:absolute;
-        left: 850px;
+        width: 350px;
+        border: 4px solid; 
+        border-radius: 60%;
+        border-color:#5863f8;
+        margin-right: 25px;
     }
-
-
-    #body1 {
+    
+    #body2 {
         width: 600px;
         position: relative;
         left:100px;
-        top: 10px; 
-        
-
+        top: 300px; 
 
     }
     .subsubtitle {
     color:#5fbff9;
     font-size: 20px;
     text-align: center;
+    }
+    .mark {
+        color:#5863f8;
     }
 
     #skill{
@@ -64,19 +72,34 @@
 <body>
     
     <div id="title"><h1>Software Development Student | Trybe</h1></div>
-    <div class="menu" > <h3>Menu</h3> 
+    
+    <div class="menu"> 
+        <table>
+            <tr>
+                <th>About Me</th>  
+                <th>Skills</th>
+                <th>Portifolio</th>
+                <th>Links</th>
+                <th>Contato</th>
+            </tr>
+        </table> 
     </div>
     
-    <div id="subtitle"><h2>Alice Arruda Atalla</h2></div>
-
+    <div class="main-block">
+        <div class="text-main-block">
+            <h2>
+                <em>"My name is Alice Arruda Atalla, born in Campo Grande - MS, recent resident in São Paulo - SP,
+        I'm 21 years old and <span class="mark"> very willing to learn!"</span ></strong></em>
+            </h2>
+        </div>
+        <div class="main-picture">
     <img id="alicePicture" src="Img/AliceArrudaAtalla.jpg" alt= "Alice Arruda Atalla's Picture">
+        </div>
+    </div>
 
-    <div id="body1">
+    <div id="body2">
     <h3 class="subsubtitle"><ins>About Me</ins></h3>
-    <p> <em>My name is Alice, born in Campo Grande - MS, recent resident in São Paulo - SP,
-        I'm 21 years old and <strong>very willing to learn!</strong></em>
-        <br><br>
-        I am a person passionate about technology and the financial market, 
+    <p>         I am a person passionate about technology and the financial market, 
         and in recent years, this passion has turned into motivation.
     <br><br>
         I am looking to reposition myself in the job market in a new career,
