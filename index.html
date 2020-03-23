@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Web - Alice Arruda Atalla</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet"//>
 </head>
 <style>
     body{
-        background-color: rgba(247, 230, 237, 0.959);
+        background-color: #efe9f4;
+        font-family: 'Noto Sans', sans-serif;
+        color: #171d1c;
     }
 
     #title{ 
-        color:rgba(255, 0, 0, 0.863);
+        color: #16bac5;
         position: relative;
-        margin-left: 100px;
-        margin-top:250px;
-        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    .menu{
+        background-color:#5863f8;
+        color:white;
+        
     }
     #subtitle{ 
-        color:rgba(245, 4, 24, 0.959);
+        color:#16bac5;
         position: relative;
         margin: 5px 10px 5px 100px;
         font-size: 20px;
@@ -27,33 +35,43 @@
     #alicePicture {
         width: 300px;
         border: 5px groove; 
+        border-color:#16bac5;
         position:absolute;
         left: 850px;
     }
 
 
-    #parte2 {
+    #body1 {
         width: 600px;
         position: relative;
         left:100px;
-        top: 10px;
+        top: 10px; 
+        
+
 
     }
-    h3 {
-    color:rgba(255, 47, 65, 0.959);
-    font-size: 25px;
+    .subsubtitle {
+    color:#5fbff9;
+    font-size: 20px;
+    text-align: center;
+    }
+
+    #skill{
+
     }
 </style>
 <body>
     
-    <div id="title"><h1>Alice Arruda Atalla</h1></div>
+    <div id="title"><h1>Software Development Student | Trybe</h1></div>
+    <div class="menu" > <h3>Menu</h3> 
+    </div>
     
-    <div id="subtitle"><h2>Brazilian - Resident in São Paulo - SP</h2></div>
+    <div id="subtitle"><h2>Alice Arruda Atalla</h2></div>
 
     <img id="alicePicture" src="Img/AliceArrudaAtalla.jpg" alt= "Alice Arruda Atalla's Picture">
 
-    <div id="parte2">
-    <h3><ins>About Me</ins></h3>
+    <div id="body1">
+    <h3 class="subsubtitle"><ins>About Me</ins></h3>
     <p> <em>My name is Alice, born in Campo Grande - MS, recent resident in São Paulo - SP,
         I'm 21 years old and <strong>very willing to learn!</strong></em>
         <br><br>
@@ -71,7 +89,8 @@
         an impact and relevance in other people's lives.</stong>
     </p>
 </div>
-<br><br><br><br>
+
+<div id="skill">
     <h2>Skills</h2>
     <ul>
         <li><strong>Ethics</strong></li>
@@ -80,6 +99,8 @@
         <li>Resilience</li>
         <li>Positivy</li>
     </ul>
+</div>
+    
     <h2>Links</h2>
     <ul>
         <li>
@@ -89,6 +110,7 @@
            <a id="linkTrybe" href="https://www.betrybe.com/" target="_blank">Trybe</a>
       </li> 
     </ul>
+
     <h3>Portfolio</h3>
     <ul>
         <li><a href="https://github.com/AliceAAtalla" target="-blank">Github</a></li>
